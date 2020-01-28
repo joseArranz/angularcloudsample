@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "node server.js",
     "dev": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build  --prod angularcloudsample --base-href /angularcloudsample/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

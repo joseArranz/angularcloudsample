@@ -10,6 +10,8 @@ const EventSource: any = window['EventSource'];
 export class AppComponent {
   title = 'angularcloudsample';
   enviroment = environment.enviroment;
+  urlSpring =  environment.serviceUrl;
+  urlSpringKafka = environment.serviceKafkaUrl;
   dataServiceSpring;
   dataServiceSpringkafka;
   dataServiceSpringkafkavecibing;
