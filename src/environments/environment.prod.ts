@@ -1,9 +1,9 @@
 export const environment = {
   production: true,
   enviroment: "Produccion",
-  serviceUrl: "lllllll",
+  serviceUrl: "springcloud.jarranzz.svc",
   servicePath:"/api/hello",
-  serviceKafkaUrl :"http://localhost:8080",
+  serviceKafkaUrl :"springcloudkafka.jarranzz.svc",
   servicekafkaPath:"/api/hello",
   servicekafkaRecivingPath:"/api/hellorecive"
 };
