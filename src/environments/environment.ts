@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  enviroment: "Desarrollo",
+  serviceUrl: "http://localhost:8080",
+  servicePath:"/api/hello",
+  serviceKafkaUrl :"http://localhost:8081",
+  servicekafkaPath:"/api/hello",
+  servicekafkaRecivingPath:"/api/hellorecive"
 };
 
 /*
